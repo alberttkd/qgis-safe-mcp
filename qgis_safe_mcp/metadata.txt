@@ -1,0 +1,18 @@
+[general]
+name=QGIS Safe MCP
+qgisMinimumVersion=3.36
+qgisMaximumVersion=4.99
+supportsQt6=True
+description=Puente MCP seguro para controlar QGIS desde asistentes de IA (Claude, etc.)
+about=Abre un canal local (127.0.0.1) autenticado con token para que un cliente MCP pueda consultar y modificar el proyecto de QGIS mediante una lista cerrada de acciones. No permite ejecutar código arbitrario. Incluye modo manual (pide confirmación antes de cada cambio) y modo automático (sin preguntas, escrituras limitadas a una carpeta de trabajo).
+version=0.1.0
+author=Albert Herrera
+email=albert.geomatics@gmail.com
+tags=mcp,ai,claude,llm,automation,security
+category=Plugins
+icon=icon.svg
+experimental=True
+deprecated=False
+homepage=https://github.com/alberttkd/qgis-safe-mcp
+repository=https://github.com/alberttkd/qgis-safe-mcp
+tracker=https://github.com/alberttkd/qgis-safe-mcp/issues

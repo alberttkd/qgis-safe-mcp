@@ -1,0 +1,11 @@
+[project]
+name = "qgis-safe-mcp-server"
+version = "0.1.0"
+description = "Servidor MCP que conecta asistentes de IA con el plugin QGIS Safe MCP"
+readme = "../README.md"
+requires-python = ">=3.10"
+license = "GPL-2.0-or-later"
+dependencies = ["mcp>=1.10,<2"]
+
+[tool.uv]
+package = false
